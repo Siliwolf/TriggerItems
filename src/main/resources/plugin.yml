@@ -1,0 +1,9 @@
+name: TriggerItem
+version: '${project.version}'
+main: rccommand.trigger_item
+api-version: 1.16
+authors: [ Siliwolf ]
+commands:
+  create_trigger:
+    description: Make a trigger item.
+    usage: /create_trigger <COOLDOWN> <COMMAND WITHOUT SLASH>
